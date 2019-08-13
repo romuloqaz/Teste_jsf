@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Reservas-Hotel:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Reservas_Hotel_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Reservas-Hotel/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="Reservas-Hotel:war exploded" />
+      </element>
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="Reservas-Hotel:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2 (2)" />
+        <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+        <element id="library" level="project" name="JPA 2.0-2.0" />
+        <element id="library" level="project" name="Maven: Arquillian TestNG:Release" />
+        <element id="library" level="project" name="Richfaces-4.2.2" />
+        <element id="library" level="project" name="PrimeFaces-6.1" />
+        <element id="library" level="project" name="Drools-6.2.0" />
+        <element id="library" level="project" name="Maven: Arquillian JUnit:Release" />
+        <element id="library" level="project" name="Hibernate 5.2.17-5.2.17" />
+        <element id="library" level="project" name="javax.faces:jsf-api:2.11" />
+        <element id="library" level="project" name="javax.faces:jsf-api:2.1" />
+      </element>
+      <element id="library" level="project" name="Reservas-Hotel" />
+    </root>
+  </artifact>
+</component>
